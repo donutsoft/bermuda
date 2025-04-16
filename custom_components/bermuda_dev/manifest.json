@@ -1,13 +1,13 @@
 {
-  "domain": "bermuda",
-  "name": "Bermuda BLE Trilateration",
+  "domain": "bermuda_dev",
+  "name": "Bermuda BLE Trilateration (Dev)",
   "bluetooth": [
     {
       "connectable": false,
       "manufacturer_id": 76
     }
   ],
-  "codeowners": ["@agittins"],
+  "codeowners": ["@agittins", "@donutsoft"],
   "config_flow": true,
   "dependencies": ["bluetooth_adapters", "device_tracker"],
   "documentation": "https://github.com/agittins/bermuda",
